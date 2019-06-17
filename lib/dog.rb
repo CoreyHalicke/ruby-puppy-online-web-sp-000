@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog
   @@all = []
 
@@ -12,7 +14,7 @@ class Dog
   end
 
   def self.all
-    puts @all
+    @@all 
   end
 
 
