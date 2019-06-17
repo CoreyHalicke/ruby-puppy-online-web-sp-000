@@ -10,12 +10,12 @@ class Dog
 
 
   def self.clear_all
-    @@all = []
+    @@all.clear
   end
 
   def self.all
     @@all.each do |x|
-      print x 
+      print x
     end
   end
 
