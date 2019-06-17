@@ -19,4 +19,7 @@ class Dog
     end
   end
 
+  def self.name
+    name
+  end
 end
