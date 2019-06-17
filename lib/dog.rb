@@ -19,7 +19,7 @@ class Dog
     end
   end
 
-  def self.name(name)
+  def name(name)
     @name
   end
 end
